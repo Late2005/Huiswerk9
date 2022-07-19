@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Darker themed fanpagina over de Efteling">
+    <meta name="keywords" content="Efteling, Kaatsheuvel, Pardoes, Attractiepark, Python, Anton Pieck">
+    <title>De Efteling</title>
+
+<!--Stuff knicked from others -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto&display=swap" rel="stylesheet">
+
+    <style>
+      * {font-family: Roboto, Arial, Verdana, Sans-serif;}
+      html {box-sizing: border-box; border-collapse: collapse;}
+      body {margin: 0;padding: 0;}
+      header {position: sticky;top: 0px;left: 0px; padding: 1.5%; background-image: linear-gradient(to right, white, white, darkred);overflow: hidden;z-index: 10;}
+      nav {position: absolute;bottom: 0px;left: 0%; right: 0%;height: auto;text-align: center;}
+      nav a {display: inline-block; margin: 0px 15px; padding: 5px 25px;background-color: transparent; text-decoration: none; color: black; border: 3px solid transparent;}
+      nav a:hover {border-bottom: 3px solid black; cursor: pointer;}
+      nav a:active {font-weight: bold; cursor: url("../ico/efteling-icon.cur"), wait;}
+      #logo {display: inline-block; height: auto; width: 200px;}
+      #wrapper {position: relative; top: 0px;display: flex; flex-direction: row; flex-wrap: wrap;height: auto; width: 100%; background-color: rgba(0,0,0,0.5); overflow: hidden;}
+      #hero {display: none;position: absolute; top: 0%; left: 0%;width: 100%; height: 100%;opacity: 0.3; border: none;z-index: -100;}
+      #content {display: inline-block;width: 800px;height: 450px;margin: auto; margin-bottom: 2.5%;background-color: transparent;border: 2px solid black; overflow: scroll;}
+      h1 {position: absolute; top: 1.5%; right: 3.5%;display: inline-block;font-family: "Dancing Script", Roboto, Arial;font-size: 5vmin;font-weight: 900; color: rgba(209, 154, 2, 1); text-shadow: 2px 2px 2px black;}
+      h2 {font-family: "Dancing Script", Roboto, Arial;font-size: 36px;font-weight: 900; color: rgba(209, 154, 2, 1); text-shadow: 2px 2px 2px black;}
+      article {display: block; width: 60%; margin: auto;}
+      p {display: inline-flex;}
+      .column1 {display: block;width: 50%;height: auto; margin: auto; padding: 2.5%;background-color: rgba(255,255,255,0.5);align-items: flex-start;}
+      .main {}
+      .sub {font-style: italic;}
+      .media
+      .source {font-family: courier;font-size: small;}
+      aside img {display: block;width: 650px; height: auto; margin: 2.5%;box-shadow: 5px 10px 8px; z-index: 1;}
+      aside audio {margin: 2.5%;}
+      footer {display: flex; flex-direction: row;padding: 2.5%;background-color: darkred;color: white;align-items: center;justify-content: center;}
+      footer a {display: inline-flex; text-decoration: none;margin: 0px 10px;padding: 0px 10px; color: white; border: 2px solid transparent;}
+      footer a:hover {font-weight: bold; border-bottom: 2px solid black;}
+    </style>
+  </head>
+
+<!-- Here's where the story begins.... -->
+
+  <body>
+    <header>
+      <a href="../index.html"><img id="logo" src="../ico/efteling-logo-main.png" title="Efteling logo"></a>
+      <h1>Voor een dag vol wonderen</h1>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="info.html">Info</a>
+            <a href="galerij.html">Gallerij</a>
+            <a href="https://www.efteling.com/nl/hotel" target="_blank">Hotel</a>
+        </nav>
+    </header>
+
+
+<!-- Write something really interesting down here. Maybe add one or two pics....-->
+
+    <div id="wrapper">
+
+      <img id="hero" src="../img/symbolica.jpg" alt="Symbolica" title="Symbolica">
+
+      <article class="column1">
+        <h2>De verhalen van 1001 nacht</h2>
+        <section class="main">
+        <p>De Efteling opende dit jaar een nieuwe waterattractie genaamd Archipel. Het gebied sluit aan bij het bestaande thema rondom Sinbad de zeeman uit de verhalen van 1001 nacht. Archipel bevindt zich bij de achtbaan Vogelrok en de Sirocco.</p>
+        </section>
+          <section class="sub">
+            <p>Archipel vervangt het voormalige doolhof.</p>
+            </section>
+            <aside class="media">
+              <img src="../img/archipel.jpg" alt="het nieuwe gebied Archipel" title="Het nieuwe gebied Archipel">
+              <audio src="../audio/04. Efteling - Vogel Rok_sample.mp3" controls>1001 nacht</audio>
+              </aside>
+        </article>
+
+        <article class="column1">
+          <h2>Max und Moritz</h2>
+          <section class="main">
+          <p>Na ruim 40 jaar heeft de Efteling afscheid genomen van de Bob. Op de plaats waar de Bob is de nieuwe familie achtbaan Max und Moritz geopend. Dankzij het rustige tempo en verloop van de baan is dit een achtbaan voor jong & oud.</p>
+          </section>
+            <section class="sub">
+              <p>Max und Moritz vervangen de Bob.</p>
+              </section>
+              <aside class="media">
+                <img src="../img/stomme_familie_achtbaan.jpg" alt="Max & Moritz" title="Familie achtbaan Max & Moritz">
+                <audio src="../audio/01. Efteling - Volk Van Laaf_sample.mp3" controls>Max und Moritz</audio>
+                </aside>
+          </article>
+
+          <article class="column1">
+            <h2>Geniet van de Winter Efteling</h2>
+            <section class="main">
+            <p>Elk jaar rond de feestdagen wordt de Efteling omgetoverd tot een waar winter wonderland. Geniet van je favoriete attracties in hun speciale aankleding.</p>
+            </section>
+              <section class="sub">
+                <p>Droomvlucht blijft favoriet bij bezoekers Winter Efteling</p>
+                </section>
+                <aside class="media">
+                  <img src="../img/winter_efteling.jpg" alt="De Winter Efteling" title="Speciale aankleding Winter Efteling">
+                  <audio src="../audio/02. Efteling - Droomvlucht_sample.mp3" controls>Droomvlucht</audio>
+                  </aside>
+            </article>
+
+    </div>
+
+<!-- If you have more to say, do it now... -->
+
+    <footer>
+      <a href="#link"><p>Referentie</p></a>
+      <a href="#link"><p>Referentie</p></a>
+      <a href="#link"><p>Referentie</p></a>
+      <a href="#link"><p>Referentie</p></a>
+    </footer>
+
+
+<!-- Too late -->
+
+  </body>
+</html>
